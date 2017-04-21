@@ -1,3 +1,35 @@
+/*Unsure of convention for a site this simple, so I've opted organize CSS rules according to the work they're doing. This does lead to some duplicate selectors but makes it really easy to find, for instance, what rule is controlling why that thing is where.*/
+
+/*Image Formatting*/
 #portrait {
   width: 250px;
 }
+
+td img {
+  width: 20px;
+  /*padding: 5px 10px;*/
+}
+
+/*Layout*/
+.project-name {
+  width: 100px;
+}
+
+/*Font Styling*/
+.coming-soon {
+  font-weight: normal;
+}
+
+.project-name {
+
+}
+
+.project-desc {
+
+}
+
+.important-project {
+  /*Make a rule to highlight particularly good projects*/
+}
+
+/*Custom Colors*/
