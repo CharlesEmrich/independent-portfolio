@@ -3,8 +3,6 @@ CHECKAn image of you, or something that represents you.
 CHECKA list of projects you have created with active links to their GitHub pages sites or GitHub repositories.
 For each, include a *brief description of the project and what languages it uses.*
 An “About Me” section.
-Your background (education, job experience, or why did you decide to take a class on programming, etc).
-Your current interests/hobbies/skills.
 Create a gh-pages branch so that your site can be viewed on GitHub Pages at your-username.github.io/portfolio (for example).
 Don't forget your Git commits with an initial commit and a commit for every major code change, and include a README in your GitHub repository!
 
