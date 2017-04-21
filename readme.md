@@ -11,7 +11,7 @@ This is an initial draft of a portfolio website, assembled in an afternoon as a 
 
 OR
 
-1. Visit it live on gh-pages here.
+1. Visit it live on gh-pages [here](https://charlesemrich.github.io/independent-portfolio/).
 
 #### License
 Copyright (c) 2017 _*Charles Emrich*_
