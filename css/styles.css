@@ -19,6 +19,7 @@ td img {
 
 .jumbotron {
   position: relative;
+  margin-top: 20PX;
 }
 
 /*The following rule comes from http://stackoverflow.com/questions/20503064/twitter-bootstrap-3-panels-of-equal-height-in-a-fluid-row*/
@@ -65,19 +66,41 @@ td {
 }
 
 .project-name {
+  /*Currently unused, in favor of styling <a>, but an expanded version of the site would need to use both*/
+}
 
+a {
+  color: rgba(254, 101, 101, 1);
+  font-weight: bold;
 }
 
 .project-desc {
-
+  font-variant: small-caps;
 }
 
 .language {
-  /*style language slightly different from desc?*/
+  font-weight: 700;
 }
 
 .important-project {
   /*Make a rule to highlight particularly good projects*/
+}
+
+.panel .panel-heading {
+  font-weight: 1000;
+  font-family: sans-serif;
+}
+
+#folio {
+  border-bottom: 3px solid rgba(255,255,255,.5);
+  font-weight: 700;
+  font-stretch: ultra-expanded;
+}
+
+#my-name {
+  /*text-align: left;
+  padding-left: 17%;*/
+  font-family: monospace;
 }
 
 /*Custom Colors*/
@@ -135,5 +158,6 @@ td {
 
 .panel .panel-heading {
   background-color: rgba(95, 125, 137, 1);
-  color: rgba(129, 209, 232, 1);
+  /*color: rgba(129, 209, 232, 1);*/
+  color: rgba(226, 243, 225, 1);
 }
