@@ -7,6 +7,7 @@
   position: absolute;
   top: 30px;
   left: 30px;
+  border-radius: 5px;
 }
 
 td img {
@@ -36,6 +37,10 @@ td img {
   height: 95%;
 }
 
+.panel, .well, #portrait {
+  border: 8px solid rgba(205, 237, 253, .4);
+}
+
 /*Table Layout*/
 td {
   border-bottom: 1px solid #ddd;
@@ -51,6 +56,8 @@ td {
 #completed-projects {
   text-align: center;
   padding: 4px;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .coming-soon {
@@ -107,7 +114,7 @@ td {
 }
 
 .bg-dark-imperial-blue {
-  background-color: rgba(26, 66, 101, 1);
+  background-color: rgba(26, 66, 101, .5);
 }
 
 .bg-platinum {
@@ -120,4 +127,13 @@ td {
 
 .bg-angle-brack {
   background-color: rgba(254, 101, 101, 1);
+}
+
+.panel {
+  background-color: rgba(226, 243, 225, 1);
+}
+
+.panel .panel-heading {
+  background-color: rgba(95, 125, 137, 1);
+  color: rgba(129, 209, 232, 1);
 }
