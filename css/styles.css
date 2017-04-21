@@ -49,6 +49,7 @@ td {
 /*Text/Font Styling*/
 #completed-projects {
   text-align: center;
+  padding: 4px;
 }
 
 .coming-soon {
@@ -68,3 +69,50 @@ td {
 }
 
 /*Custom Colors*/
+.c-sea-serpent {
+  color: rgba(79, 182, 211, 1);
+}
+
+.c-steel-teal {
+  color: rgba(95, 125, 137, 1);
+}
+
+.c-dark-imperial-blue {
+  color: rgba(26, 66, 101, 1);
+}
+
+.c-platinum {
+  color: rgba(226, 243, 225, 1);
+}
+
+.c-cordovan {
+  color: rgba(136, 62, 77, 1);
+}
+
+.c-angle-brack {
+  color: rgba(254, 101, 101, 1);
+}
+
+.bg-sea-serpent {
+  background-color: rgba(79, 182, 211, 1);
+}
+
+.bg-steel-teal {
+  background-color: rgba(95, 125, 137, 1);
+}
+
+.bg-dark-imperial-blue {
+  background-color: rgba(26, 66, 101, 1);
+}
+
+.bg-platinum {
+  background-color: rgba(226, 243, 225, 1);
+}
+
+.bg-cordovan {
+  background-color: rgba(136, 62, 77, 1);
+}
+
+.bg-angle-brack {
+  background-color: rgba(254, 101, 101, 1);
+}
